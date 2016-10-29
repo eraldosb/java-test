@@ -1,4 +1,4 @@
 language: java
-script: ant main
+script: ant main a
 notifications:
   slack: dasa-corp:T8TsUPTc0ZciT3kERx6yrLxb
