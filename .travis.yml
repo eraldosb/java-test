@@ -2,6 +2,7 @@ language: java
 script: ant main
 notifications:
   slack: dasa-corp:T8TsUPTc0ZciT3kERx6yrLxb
+before_deploy: "git push origin master:refs/heads/master"
 deploy:
   provider: azure_web_apps
   username: eraldosb@gmail.com       # If AZURE_WA_USERNAME isn't set
