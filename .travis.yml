@@ -6,6 +6,4 @@ deploy:
   provider: azure_web_apps
   skip_cleanup: true
   verbose: true
-  username: eraldosb@gmail.com       # If AZURE_WA_USERNAME isn't set
-  password: Chaves500!$   # If AZURE_WA_PASSWORD isn't set
-  site: java-test-esb      # If AZURE_WA_SITE isn't set
+ 
