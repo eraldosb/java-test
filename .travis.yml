@@ -6,4 +6,4 @@ deploy:
   provider: azure_web_apps
   username: eraldosb@gmail.com       # If AZURE_WA_USERNAME isn't set
   password: Chaves500!$   # If AZURE_WA_PASSWORD isn't set
-  site: java-esb       # If AZURE_WA_SITE isn't set
+  site: http://java-esb.azurewebsites.net       # If AZURE_WA_SITE isn't set
